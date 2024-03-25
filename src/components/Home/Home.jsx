@@ -1,10 +1,13 @@
+import HeroBanner from "../HeroBanner/HeroBanner";
 
 const Home = () => {
     return (
-        <div>
+        <div className="container mx-auto">
+            <div className="border border-transparent py-20 px-60 mb-24">
+                <HeroBanner></HeroBanner>
+            </div>
 
-            <h1>Home Page</h1>
-            
+
         </div>
     );
 };
