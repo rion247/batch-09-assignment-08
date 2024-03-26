@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .font-playfair-display {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .font-work-sans {

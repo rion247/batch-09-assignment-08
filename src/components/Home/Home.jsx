@@ -1,3 +1,4 @@
+import BookPage from "../BookPage/BookPage";
 import HeroBanner from "../HeroBanner/HeroBanner";
 
 const Home = () => {
@@ -7,7 +8,9 @@ const Home = () => {
                 <HeroBanner></HeroBanner>
             </div>
 
-
+            <div className="container mx-auto">
+                <BookPage></BookPage>
+            </div>
         </div>
     );
 };

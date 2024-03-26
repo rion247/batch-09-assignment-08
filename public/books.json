@@ -1,0 +1,197 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "To Kill a Mockingbird",
+        "author_name": "Harper Lee",
+        "cover_image": "https://i.ibb.co/C6Zd8xM/Untitle7d-design.png",
+        "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. Set in the 1930s in the fictional town of Maycomb, Alabama, the story focuses on young Scout Finch, her brother Jem, and their father Atticus, who is an attorney. The novel deals with themes of racial injustice, moral growth, and empathy. Through the trial of Tom Robinson, a black man falsely accused of raping a white woman, Lee explores the deep-seated prejudices and social dynamics of the American South. To Kill a Mockingbird is widely regarded as a classic of modern American literature, winning the Pulitzer Prize for Fiction in 1961.",
+        "totalPages": 281,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Law",
+            "Racism"
+        ],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 2,
+        "bookName": "1984",
+        "author_name": "George Orwell",
+        "cover_image": "https://i.ibb.co/kh3PkqB/Untitled-6design.png",
+        "description": "1984 is a dystopian novel by George Orwell published in 1949. The story takes place in a totalitarian society where the government, led by the Party and its leader Big Brother, exercises complete control over the lives of its citizens. The protagonist, Winston Smith, works for the Party's Ministry of Truth, where he falsifies historical records to align with the Party's propaganda. As Winston becomes disillusioned with the oppressive regime, he begins to rebel in small ways, ultimately leading to his capture and torture by the Thought Police. 1984 explores themes of surveillance, propaganda, and the erosion of truth, making it a chilling and prescient critique of authoritarianism.",
+        "totalPages": 328,
+        "rating": 4.8,
+        "category": "Science Fiction",
+        "tags": [
+            "Surveillance",
+            "Propaganda"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Great Gatsby",
+        "author_name": "F. Scott Fitzgerald",
+        "cover_image": "https://i.ibb.co/jwQ91j8/Untitled-d10esign.png",
+        "description": "The Great Gatsby is a novel by F. Scott Fitzgerald published in 1925. Set in the fictional towns of West Egg and East Egg on Long Island, New York, during the summer of 1922, the story follows the young and mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan. Through the eyes of narrator Nick Carraway, the novel explores themes of wealth, love, and the American Dream. Fitzgerald's prose captures the decadence and disillusionment of the Jazz Age, painting a vivid portrait of the Roaring Twenties. The Great Gatsby is considered one of the greatest works of American literature, admired for its lyrical style and penetrating social commentary.",
+        "totalPages": 180,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Wealth"
+        ],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 4,
+        "bookName": "Harry Potter",
+        "author_name": "J.K. Rowling",
+        "cover_image": "https://i.ibb.co/LYx75Wx/Untitled-desi5gn.png",
+        "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series written by J.K. Rowling. The story follows a young boy named Harry Potter who discovers that he is a wizard and is invited to attend Hogwarts School of Witchcraft and Wizardry. Along with his friends Ron Weasley and Hermione Granger, Harry learns about his magical heritage and confronts the dark wizard Voldemort, who killed his parents when Harry was just a baby. With themes of friendship, courage, and the battle between good and evil, Harry Potter and the Philosopher's Stone has captivated readers of all ages and become a beloved classic of children's literature.",
+        "totalPages": 309,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Friendship"
+        ],
+        "publisher": "Bloomsbury",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 5,
+        "bookName": "The Catcher in the Rye",
+        "author_name": "J.D. Salinger",
+        "cover_image": "https://i.ibb.co/y8HVWqZ/Untitled-desi9gn.png",
+        "description": "The Catcher in the Rye is a novel by J.D. Salinger published in 1951. Narrated by the protagonist Holden Caulfield, the story follows his experiences in New York City after being expelled from prep school. Holden struggles with feelings of alienation and cynicism, observing what he sees as the phoniness and hypocrisy of the adult world. Throughout the novel, Holden grapples with themes of identity, innocence, and authenticity, as he navigates encounters with various characters and confronts his own inner turmoil. The Catcher in the Rye has been both praised and criticized for its frank portrayal of adolescent angst and remains a controversial and influential work of literature.",
+        "totalPages": 277,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Teen",
+            "Society"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author_name": "J.R.R. Tolkien",
+        "cover_image": "https://i.ibb.co/ZMP8Kfc/Untitled-design.png",
+        "description": "The Hobbit is a fantasy novel by J.R.R. Tolkien published in 1937. It follows the journey of Bilbo Baggins, a hobbit who is swept into an epic quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, Bilbo encounters trolls, elves, goblins, and a mysterious creature named Gollum. The Hobbit is a prelude to Tolkien's larger work, The Lord of the Rings, and introduces readers to the richly imagined world of Middle-earth. With its blend of adventure, humor, and heroism, The Hobbit has captivated generations of readers and remains a beloved classic of fantasy literature.",
+        "totalPages": 310,
+        "rating": 4.6,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Quest"
+        ],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "bookName": "Moby-Dick",
+        "author_name": "Herman Melville",
+        "cover_image": "https://i.ibb.co/xJbP69m/Untitled-design1.png",
+        "description": "Moby-Dick; or, The Whale is a novel by Herman Melville published in 1851. It tells the story of Ishmael, a sailor who joins the whaling ship Pequod, led by the enigmatic and vengeful Captain Ahab. Ahab is obsessed with hunting down the white whale Moby Dick, who had previously maimed him. As the Pequod ventures into the depths of the ocean, Ishmael reflects on themes of fate, obsession, and the nature of humanity. Moby-Dick is considered one of the greatest works of American literature, celebrated for its rich symbolism, complex characters, and philosophical depth.",
+        "totalPages": 635,
+        "rating": 4.5,
+        "category": "Adventure",
+        "tags": [
+            "Obsession",
+            "Sea",
+            "Revenge"
+        ],
+        "publisher": "Richard Bentley",
+        "yearOfPublishing": 1851
+    },
+    {
+        "bookId": 8,
+        "bookName": "Brave New World",
+        "author_name": "Aldous Huxley",
+        "cover_image": "https://i.ibb.co/WHd77zH/Unt8itled-design.png",
+        "description": "Brave New World is a dystopian novel by Aldous Huxley published in 1932. Set in a futuristic world where people are genetically engineered and conditioned for specific social roles, the story follows Bernard Marx, an outsider who questions the rigid conformity of society. As Bernard delves deeper into the dark secrets of the World State, he uncovers the price of technological progress and the loss of individual freedom. Brave New World explores themes of happiness, consumerism, and the dehumanizing effects of scientific advancement, offering a stark warning about the dangers of sacrificing human values for societal stability.",
+        "totalPages": 311,
+        "rating": 4.4,
+        "category": "Science Fiction",
+        "tags": [
+            "Technology",
+            "Society"
+        ],
+        "publisher": "Chatto & Windus",
+        "yearOfPublishing": 1932
+    },
+    {
+        "bookId": 9,
+        "bookName": "The Lord of the Rings",
+        "author_name": "J.R.R. Tolkien",
+        "cover_image": "https://i.ibb.co/gzGFyTT/Brown-Rusty-Mystery-Novel-Book-Cover2.png",
+        "description": "The Lord of the Rings is an epic high fantasy novel by J.R.R. Tolkien. Set in the fictional world of Middle-earth, the story follows the quest to destroy the One Ring, a powerful artifact created by the dark lord Sauron. Frodo Baggins, aided by a fellowship of diverse companions, undertakes the perilous journey to Mount Doom, where the Ring can be destroyed. Along the way, they encounter allies and adversaries, facing battles and trials that will determine the fate of Middle-earth. The Lord of the Rings is renowned for its rich mythology, intricate world-building, and themes of heroism, sacrifice, and the struggle against evil.",
+        "totalPages": 1178,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": [
+            "Epic",
+            "Adventure",
+            "Magic"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1954
+    },
+    {
+        "bookId": 10,
+        "bookName": "Crime and Punishment",
+        "author_name": "Fyodor Dostoevsky",
+        "cover_image": "https://i.ibb.co/zSGcdvS/Brown-Rusty-Mystery-Novel-Book-Cover.png",
+        "description": "Crime and Punishment is a novel by Fyodor Dostoevsky, first published in 1866. Set in St. Petersburg, Russia, the story follows the impoverished student Raskolnikov, who commits a brutal murder and wrestles with his guilt and conscience. As Raskolnikov evades capture, he becomes entangled with a series of characters, including the virtuous prostitute Sonya and the shrewd investigator Porfiry Petrovich. Through Raskolnikov's inner turmoil and moral conflict, Dostoevsky explores themes of redemption, suffering, and the nature of good and evil. Crime and Punishment is considered one of the greatest psychological novels ever written and a cornerstone of Russian literature.",
+        "totalPages": 671,
+        "rating": 4.7,
+        "category": "Psychological Fiction",
+        "tags": [
+            "Guilt",
+            "Morality"
+        ],
+        "publisher": "The Russian Messenger",
+        "yearOfPublishing": 1866
+    },
+    {
+        "bookId": 11,
+        "bookName": "Game of Thrones",
+        "author_name": "George R.R. Martin",
+        "cover_image": "https://i.ibb.co/myhP19g/Brown-Rusty-Mystery-Novel-Book-Cov11er.png",
+        "description": "Game of Thrones is the first novel in the A Song of Ice and Fire series by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the story follows the power struggles among noble families as they vie for control of the Iron Throne. With complex characters, intricate political plots, and elements of magic and dragons, the novel immerses readers in a richly detailed fantasy world. Game of Thrones has garnered acclaim for its epic scope, morally ambiguous characters, and unpredictable plot twists.",
+        "totalPages": 694,
+        "rating": 4.6,
+        "category": "Fantasy",
+        "tags": [
+            "Political",
+            "Dragons"
+        ],
+        "publisher": "Bantam Books",
+        "yearOfPublishing": 1996
+    },
+    {
+        "bookId": 12,
+        "bookName": "The Hunger Games",
+        "author_name": "Suzanne Collins",
+        "cover_image": "https://i.ibb.co/7nZjvxj/Brown-Rusty-Mystery-Novel-Bo12ok-Cover.png",
+        "description": "The Hunger Games is a dystopian novel by Suzanne Collins, the first book in The Hunger Games trilogy. Set in a future society where children are forced to participate in a televised battle to the death, the story follows sixteen-year-old Katniss Everdeen as she volunteers to take her sister's place in the deadly competition. Alongside her fellow tribute Peeta Mellark, Katniss must navigate the brutal arena and confront the oppressive Capitol. The Hunger Games explores themes of survival, sacrifice, and rebellion against injustice.",
+        "totalPages": 374,
+        "rating": 4.2,
+        "category": "Science Fiction",
+        "tags": [
+            "Dystopian",
+            "Survival"
+        ],
+        "publisher": "Scholastic Press",
+        "yearOfPublishing": 2008
+    }
+]
