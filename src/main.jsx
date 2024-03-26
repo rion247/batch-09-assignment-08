@@ -13,6 +13,7 @@ import ListedBooks from './components/ListedBooks/ListedBooks';
 import PagestoRead from './components/PagestoRead/PagestoRead';
 import Blog from './components/Blog/Blog';
 import Community from './components/Community/Community';
+import BookDetails from './components/BookDetails/BookDetails';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
       {
         path: "/community",
         element: <Community />,
+      },
+      {
+        path: "/bookDetails/:id",
+        element: <BookDetails />,
+        loader: () => fetch('/books.json')
       },
     ],
   },
