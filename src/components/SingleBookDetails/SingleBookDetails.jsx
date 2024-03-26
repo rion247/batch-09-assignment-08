@@ -1,7 +1,24 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SingleBookDetails = ({ clickedBook }) => {
 
+    console.log(clickedBook);
+
     const { bookName, author_name, cover_image, description, totalPages, publisher, yearOfPublishing, tags, category, rating } = clickedBook;
+
+    const handleReadButton = () => {
+
+        const getStoredItem = JSON.parse(localStorage.getItem('books')) || [];
+        const checkItem = getStoredItem.find(item => item.bookId == clickedBook.bookId);
+        if(checkItem){
+            toast('Already Added. Please Try Another One.');
+        }else{
+            getStoredItem.push(clickedBook);
+            localStorage.setItem('books', JSON.stringify(getStoredItem));
+            toast('Book Added Successfully!!!');
+        }
+    }
 
     return (
 
@@ -62,7 +79,7 @@ const SingleBookDetails = ({ clickedBook }) => {
 
                     <div className="flex justify-start items-center gap-x-4">
 
-                        <button href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg hover:text-white border hover:border-transparent border-neutral-300 hover:bg-green-500 font-semibold rounded-md sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{ }">
+                        <button onClick={handleReadButton} href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg hover:text-white border hover:border-transparent border-neutral-300 hover:bg-green-500 font-semibold rounded-md sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{ }">
                             Read
                         </button>
                         <button href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-teal-500 font-semibold rounded-md hover:bg-teal-400 sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
@@ -74,7 +91,7 @@ const SingleBookDetails = ({ clickedBook }) => {
                 </div>
 
             </div>
-
+            <ToastContainer />
         </div >
 
     );
