@@ -3,8 +3,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const SingleBookDetails = ({ clickedBook }) => {
 
-    console.log(clickedBook);
-
     const { bookName, author_name, cover_image, description, totalPages, publisher, yearOfPublishing, tags, category, rating } = clickedBook;
 
     const handleReadButton = () => {
