@@ -1,7 +1,12 @@
+import { useNavigation } from "react-router-dom";
+import Loader from "../Loader/Loader";
 
 const SingleBlog = ({ blog }) => {
+    
 
     const {cover_picture, name, publish_date  } = blog;
+    const navigation = useNavigation();
+    if(navigation.state === "loading") return <Loader></Loader>;
 
     return (
         <div className="shadow-lg">

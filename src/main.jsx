@@ -54,11 +54,12 @@ const router = createBrowserRouter([
       {
         path: "/community",
         element: <Community />,
+        loader: () => fetch('/forums.json'),
       },
       {
         path: "/bookDetails/:id",
         element: <BookDetails />,
-        loader: () => fetch('/books.json')
+        loader: () => fetch('/books.json'),
       },
     ],
   },

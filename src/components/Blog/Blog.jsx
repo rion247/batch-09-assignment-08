@@ -1,11 +1,14 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import SingleBlog from "./SingleBlog";
+import Loader from "../Loader/Loader";
 
-const Blog = () => {
+const Blog = () => {   
 
     const blogs = useLoaderData();
     console.log(blogs[0].name);
-
+    const navigation = useNavigation();
+    if(navigation.state === "loading") return <Loader></Loader>;
+    
     return (
         <section className="font-work-sans mb-20">
             <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">

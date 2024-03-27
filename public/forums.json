@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "Sci-Fi Enthusiasts Forum ",
+        "category": "Science Fiction",
+        "cover_picture": "https://i.ibb.co/QDnc6Ys/pexels-pixabay-41951.jpg",
+        "publish_date": "Aug 27",
+        "description": "Connect with fellow sci-fi fans and discuss your favorite novels, movies, and theories in this vibrant community forum.",
+        "views": 2.4
+    },
+    {
+        "id": 2,
+        "title": "Writing Tips and Tricks Forum",
+        "category": "Writing",
+        "cover_picture": "https://i.ibb.co/SKgL6bb/pexels-pixabay-261763.jpg",
+        "publish_date": "Jan 15",
+        "description": "Join aspiring and seasoned writers alike as they share advice, feedback, and inspiration to help you hone your craft.",
+        "views": 4
+    },
+    {
+        "id": 3,
+        "title": "Book Club Discussions Forum",
+        "category": "Book Clubs",
+        "cover_picture": "https://i.ibb.co/F0YCPR1/pexels-cottonbro-studio-4861347.jpg",
+        "publish_date": "Dec 28",
+        "description": "Participate in lively discussions, exchange book recommendations, and engage with fellow bookworms in this welcoming book club community.",
+        "views": 1.5
+    },
+    {
+        "id": 4,
+        "title": "Literary Analysis Forum",
+        "category": "Literary Criticism",
+        "cover_picture": "https://i.ibb.co/hWQP2k3/pexels-leeloo-the-first-7887842.jpg",
+        "publish_date": "May 10",
+        "description": "Explore the depths of literature as members delve into critical analysis, interpretations, and scholarly discussions of literary works.",
+        "views": 3
+    },
+    {
+        "id": 5,
+        "title": "Genre Spotlight Forum",
+        "category": "Genres",
+        "cover_picture": "https://i.ibb.co/CKYH6y9/pexels-vlada-karpovich-4050300.jpg",
+        "publish_date": "June 20",
+        "description": "Discover new genres, share your favorite reads, and engage in genre-specific discussions with fellow enthusiasts in this inclusive community forum.",
+        "views": 5.5
+    },
+    {
+        "id": 6,
+        "title": "Author Q&A Sessions Forum",
+        "category": "Author Interviews",
+        "cover_picture": "https://i.ibb.co/VWPhZvq/pexels-karolina-grabowska-4218864.jpg",
+        "publish_date": "Mar 15",
+        "description": "Get exclusive insights into the minds of your favorite authors as they participate in live Q&A sessions and interact with readers in this dynamic forum.",
+        "views": 3.2
+    },
+    {
+        "id": 7,
+        "title": "Book Swap and Trade Forum",
+        "category": "Book Exchange",
+        "cover_picture": "https://i.ibb.co/mTCrcN3/pexels-cottonbro-studio-6334062.jpg",
+        "publish_date": "Feb 30",
+        "description": "Connect with fellow bibliophiles, swap your gently loved books, and expand your literary collection through this community-driven book exchange platform.",
+        "views": 7
+    },
+    {
+        "id": 8,
+        "title": "Fan Fiction Writers Forum",
+        "category": "Fan Fiction",
+        "cover_picture": " https://i.ibb.co/ncmvRHg/pexels-radis-b-20629097.jpg",
+        "publish_date": "Nov 25",
+        "description": "Unleash your creativity, share your fan fiction stories, and connect with fellow enthusiasts in this supportive community forum dedicated to fan-inspired narratives.",
+        "views": 1.2
+    },
+    {
+        "id": 9,
+        "title": "Reading Challenges Forum",
+        "category": "Reading Challenges",
+        "cover_picture": "https://i.ibb.co/HK1gPK0/pexels-iddea-photo-17428575.jpg",
+        "publish_date": "Oct 18",
+        "description": "Embark on reading adventures, set personal reading goals, and participate in fun challenges alongside fellow readers in this motivating forum.",
+        "views": 2.5
+    }
+]
