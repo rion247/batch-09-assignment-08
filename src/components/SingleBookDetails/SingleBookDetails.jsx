@@ -11,12 +11,29 @@ const SingleBookDetails = ({ clickedBook }) => {
 
         const getStoredItem = JSON.parse(localStorage.getItem('books')) || [];
         const checkItem = getStoredItem.find(item => item.bookId == clickedBook.bookId);
-        if(checkItem){
-            toast('Already Added. Please Try Another One.');
-        }else{
+        if (checkItem) {
+            toast('Opps!!! Already Added. Please Try Another One.');
+        } else {
             getStoredItem.push(clickedBook);
             localStorage.setItem('books', JSON.stringify(getStoredItem));
-            toast('Book Added Successfully!!!');
+            toast('Book Added To Read List!!!');
+        }
+    }
+
+    const handleWishListButton = () => {
+        const getWishDataFromLocalStorage = JSON.parse(localStorage.getItem('wishlist')) || [];
+        const wishData = getWishDataFromLocalStorage.find(data => data.bookId == clickedBook.bookId);
+
+        const getBookDataFromLocalStorage = JSON.parse(localStorage.getItem('books')) || [];
+        const bookData = getBookDataFromLocalStorage.find(item => item.bookId == clickedBook.bookId);
+
+        if (wishData || bookData) {
+            toast('Sorry!!! This Data Alreay Exists.');
+        } else {
+            getWishDataFromLocalStorage.push(clickedBook);
+            const setWishListItem = JSON.stringify(getWishDataFromLocalStorage);
+            localStorage.setItem('wishlist', setWishListItem);
+            toast('Book Added To WishList!!!');
         }
     }
 
@@ -82,7 +99,8 @@ const SingleBookDetails = ({ clickedBook }) => {
                         <button onClick={handleReadButton} href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg hover:text-white border hover:border-transparent border-neutral-300 hover:bg-green-500 font-semibold rounded-md sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{ }">
                             Read
                         </button>
-                        <button href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-teal-500 font-semibold rounded-md hover:bg-teal-400 sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+
+                        <button onClick={handleWishListButton} href="#_" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-teal-500 font-semibold rounded-md hover:bg-teal-400 sm:w-auto sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
                             Wishlist
                         </button>
 

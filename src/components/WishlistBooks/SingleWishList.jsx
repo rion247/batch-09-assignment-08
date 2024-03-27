@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import { GrLocation } from "react-icons/gr";
 import { BsPeople } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
-const SingleReadBook = ({ readBook }) => {
+const SingleWishList = ({ wishList }) => {
 
-    const { bookName, author_name, cover_image, totalPages, tags, publisher, yearOfPublishing, category, rating, bookId } = readBook;
+    const { bookName, author_name, cover_image, totalPages, tags, publisher, yearOfPublishing, category, rating, bookId } = wishList;
 
     return (
         <div className="p-6 bg-neutral-100 font-work-sans my-6 rounded-2xl border border-neutral-300">
@@ -57,7 +57,7 @@ const SingleReadBook = ({ readBook }) => {
                             <div className="flex items-center justify-start gap-x-3 text-base font-normal text-neutral-500">
 
                                 <div>
-                                    <img className="w-4 h-5" src="pageIcon.png" alt="...Loading" />
+                                    <img className="w-4 h-5" src="/pageIcon.png" alt="...Loading" />
                                 </div>
 
                                 <h6>Page {totalPages}</h6>
@@ -82,7 +82,8 @@ const SingleReadBook = ({ readBook }) => {
             </div>
 
         </div >
+
     );
 };
 
-export default SingleReadBook;
+export default SingleWishList;

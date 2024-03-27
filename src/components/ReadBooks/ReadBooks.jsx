@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SingleReadBook from "./SingleReadBook";
+import { getLocalStoreItem } from "../Utility/Utility";
 
 const ReadBooks = () => {
 
@@ -7,8 +8,8 @@ const ReadBooks = () => {
 
     useEffect(() => {
 
-        const getLocalStoreItem = JSON.parse(localStorage.getItem('books')) || [];
-        SetReadBooks(getLocalStoreItem);
+        const localStoreItem = getLocalStoreItem();
+        SetReadBooks(localStoreItem);
 
     }, [])
 
