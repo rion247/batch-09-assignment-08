@@ -9,7 +9,7 @@ const WishlistBooks = () => {
     useEffect(() => {
         const getData = getWishListItemFromLocalStorage();
         SetWishLists(getData);
-    }, [])
+    }, []);
 
     return (
         <div>
