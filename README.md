@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Book Vibe
-## [Live Website Link] https://batch-09-assignment-08-rion247.netlify.app/          
+## [Live Website] (https://batch-09-assignment-08-rion247.netlify.app/)          
 
 ## Features and Characteristics
 + **Inclusive website accessibility:** This 
@@ -18,7 +18,7 @@ wonderful Website follow accessibility guidelines, creating an inclusive experie
 + **Book Details:** Include detailed information about each book, such as Book Name, Author Name, Category, Review, Publisher,Publication Year, Rating. 
 + **Featured Books:** Showcase a selection of featured books on the homepage, rotating regularly to highlight new releases, bestsellers, or seasonal picks. 
 
-## Some UseFul Links:
+## Some Useful Links:
 + [daisyUI](https://daisyui.com/)
 + [TailwindCSS](https://tailwindcss.com/)
 + [Recharts](https://recharts.org/en-US)
